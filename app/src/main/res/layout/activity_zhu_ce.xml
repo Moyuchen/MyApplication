@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.moyuchen.mvpuser.ZhuCeActivity">
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="30dp"
+       android:textColor="@color/ZC_head_tv_color"
+       android:text="注册信息页"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/ZC_et_UserName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColorHint="@color/ZC_head_tv_color"
+            android:hint="请输入电话号"/>
+        <EditText
+            android:id="@+id/ZC_et_Password"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColorHint="@color/ZC_head_tv_color"
+            android:hint="请输入密码"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/ZC_BUT_ZHUCE"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        android:onClick="ZhuCe"
+        android:textColor="@color/ZC_head_tv_color"
+        android:background="#ffffff"
+        android:text="注册"/>
+
+</LinearLayout>

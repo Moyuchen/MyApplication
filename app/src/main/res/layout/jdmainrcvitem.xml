@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+        <com.moyuchen.mvpuser.Utils.CircleRoundImageView
+            android:id="@+id/jdmainrcvitem_CRIV"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:radius="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"
+            app:circle="true"
+            />
+        <TextView
+            android:id="@+id/jdmainrcvitem_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:text="nihao"/>
+        <TextView
+            android:id="@+id/jdmainrcvitem_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="nihao"/>
+</LinearLayout>
